@@ -11,7 +11,7 @@ import { FaPlus } from "react-icons/fa6";
 
 
 
-export default function ProductCard({product}:{product:any}){
+export default function ProductCard({product}:{product:{id:number,category:string,title:string,price:string,discountPrice:string,image:string}}){
 
     return (
         <div className="relative overflow-hidden rounded-2xl bg-[#f6f6f6] p-3 group">

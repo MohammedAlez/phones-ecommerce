@@ -1,4 +1,4 @@
-import { Facebook, Instagram, MapPin, PhoneCall, Twitter } from "lucide-react";
+import { Facebook, Instagram, MapPin, PhoneCall } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -58,7 +58,7 @@ export default function HeroSection(){
 
 
 
-const SliderComponent=({item}:{item:any})=>{
+const SliderComponent=({item}:{item:{id:number,title:string,desc:string,image:string}})=>{
 
 
     return (

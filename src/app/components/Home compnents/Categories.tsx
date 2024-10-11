@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { IoMdArrowRoundBack } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
 
 import SectionTitle from "../SectionTitle";
@@ -39,7 +38,7 @@ export default function Categories(){
 
 
 
-const Category=({item}:{item:any})=>{
+const Category=({item}:{item:{image:string,title:string,id:number}})=>{
 
     return (
         <div className="mb-6 md:mb-0 flex-1 rounded-2xl h-48 min-w-[200px] overflow-hidden relative group">
