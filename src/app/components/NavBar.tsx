@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { FaRegUserCircle } from "react-icons/fa";
+// import { FaRegUserCircle } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 import { RiMenu3Line } from "react-icons/ri";
 import { MdOutlineCancel } from "react-icons/md";
@@ -19,8 +19,8 @@ export default function NavBar(){
         <div className="bg-[#dadfe1]">
             {/* NavBar */}
             <div className="max-w-[1200px] p-3 md:px-6 mx-auto flex items-center justify-between">
-                <div className="h-16 w-16 relative bg-gray-400">
-                    <Image src='/logo.jpg' alt='' fill className="rounded-full bg-black"/>
+                <div className="h-16 w-16 relative">
+                    <Image src='' alt='' fill className="rounded-full bg-gray-400"/>
                 </div>
                 {/* links */}
                 <div className="hidden sm:flex flex-1 gap-10 justify-end items-center">
