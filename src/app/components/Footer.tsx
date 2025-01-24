@@ -62,7 +62,7 @@ export default function Footer(){
                     <div className="flex-1 text-white">
                     <div className="">
                         <div className="mx-auto md:ml-0 w-20 h-20 md:w-28 md:min-h-28 relative md:mx-auto rounded-full overflow-hidden bg-gray-400">
-                            <Image src='/logo.jpg' fill alt='' className="bg-gray-400" />
+                            <Image src='' fill alt='' className="bg-gray-400" />
                         </div>
                     </div>
                         <p className="py-6 md:text-start max-w-full text-center text-sm">
