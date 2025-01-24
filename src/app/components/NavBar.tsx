@@ -19,7 +19,7 @@ export default function NavBar(){
         <div className="bg-[#dadfe1]">
             {/* NavBar */}
             <div className="max-w-[1200px] p-3 md:px-6 mx-auto flex items-center justify-between">
-                <div className="h-16 w-16 relative">
+                <div className="h-16 w-16 relative bg-gray-400">
                     <Image src='/logo.jpg' alt='' fill className="rounded-full bg-black"/>
                 </div>
                 {/* links */}
