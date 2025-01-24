@@ -31,9 +31,9 @@ export default function NavBar(){
                         <Link href='' className='font-semibold text-lg transition hover:text-black text-gray-600'>Contact</Link>
                     </div>
                     <div className="flex gap-4">
-                        <button className="hover:opacity-50">
+{/*                         <button className="hover:opacity-50">
                             <FaRegUserCircle  size={28}/>
-                        </button>
+                        </button> */}
                         <button className="hover:opacity-50 ">
                             <IoCartOutline size={28} />
                         </button>
